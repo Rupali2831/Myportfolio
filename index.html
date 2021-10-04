@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+           <a href="#home">RUPALI</a> 
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#about-container">About</a></li>
+            <li class="item"><a href="#skills-section">Skills</a></li>
+            <li class="item"><a href="#contact">Contact</a></li>
+            <li class="item"><a href="#connect">Connect</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+            <h1 class="primary center">I am Rupali,</h1>
+          <div id="text">
+
+          </div>
+
+          <script type="text/javascript">
+            var i=0,text;
+            text=" WEB DEVELOPER!"
+            function typing(){
+                if(i<text.length){
+                    document.getElementById("text").innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(typing,50);
+                }
+            }
+            typing();
+        </script>
+        
+    </section>
+    <section id="about-container">
+         <h1 class="h-primary center">About</h1>
+         <div class="box">
+              <img src="myimage.jpg" alt=""> 
+         </div>
+         <div class="box">
+            <h2 class="h-secondary center">FRONT-END DEVELOPER</h2>
+            <p>I am <b>Rupali Madke</b>. I am a simple, enthusiastic, creative and fun loving person.I always like to crate something on my own which is helpful for others. </p>
+            <p>I have vast experience in HTML5, CSS3, Javascript, JQuery, React and on. I have already completed over 10 projects of different types.</p>
+            <p>I am passionate about creating usable digital products. I have worked with incredibly talented people across different fields.</p>
+             
+        
+         </div>
+       
+    </section>
+    <section id="skills-section">
+        <h1 class="h-primary center">Skills</h1>
+        <div class="small-box">
+            <label for="file">HTML</label> <br>
+            <progress id="file" value="95" max="100"> 95% </progress><br>
+            <label for="file">CSS</label> <br>
+            <progress id="file" value="84" max="100"> 84% </progress><br>
+            <label for="file">JAVASCRIPT</label> <br>
+            <progress id="file" value="78" max="100"> 78% </progress>
+
+        </div>
+        <div class="small-box">
+            <label for="file">JQuery</label> <br>
+            <progress id="file" value="70" max="100"> 70% </progress><br>
+            <label for="file">REACT</label> <br>
+            <progress id="file" value="65" max="100"> 65% </progress><br>
+            <label for="file">PHOTOSHOP</label> <br>
+            <progress id="file" value="90" max="100"> 90% </progress>
+
+        </div>
+
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact me
+        </h1>
+        <div class="box">
+            <i class="fas fa-house-user"> Aurangabad, Maharashtra</i><br>
+            <i class="fas fa-phone-alt"> 9146662255</i><br>
+            <i class="fas fa-map-marker-alt"> Near Balaji Provisions , Renukanagar</i>
+        </div>
+        <div class="box">
+           <a href="https://www.linkedin.com/in/rupali-madke-9248611a6/" target="_blank"><i class="fab fa-linkedin">  rupali_Madke</i><br></a> 
+            <a href="https://twitter.com/Rupali02215994" target="_blank"><i class="fab fa-twitter">  Rupali</i><br></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram-square">  rupali_madke</i></a>
+            
+        </div>
+ 
+    </section>
+    <section id="connect">
+        <div class="connect-div"> 
+         <h1 class="h-primary center">Connect with me</h1>
+         <form class="forms" action="/action_page.php">
+            <label for="name"></label><br>
+            <input type="text" id="name" placeholder="Enter your full name.."name="name" value=""><br>
+            <label for="email"></label><br>
+            <input type="email" id="email"  placeholder="Enter your Email Id.."name="email" value=""><br>
+            <label for="email"></label></label><br>
+            <input type="tel" id="email" placeholder="Enter your Contact number.." name=email" value=""><br>
+             <textarea  placeholder="Type your message here.."name="" id="" cols="30" rows="5"></textarea>
+            </textarea><br>
+            <button class="btn">Submit</button>
+            <button class="btn" type="reset">Reset</button>
+             
+             
+          </form> 
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy;  www.myfortlio.com All rights reserved
+        </div>
+    </footer>
+    
+</body>
+</html>
